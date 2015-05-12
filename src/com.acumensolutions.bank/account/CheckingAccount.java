@@ -13,7 +13,7 @@ public class CheckingAccount {
 		// issue #1: in the initial code, it only updated the destination account
 		// because it didn't withdraw the amount from the source account
 		if (amount < 0) {
-			throw new IllegalArgumentException("Cannot withdraw a negative amount");
+			throw new IllegalArgumentException("Cannot transfer a negative amount");
 		}
 		// issue #2 bonus: first, I just put 'withdraw(amount)'
 		// instaed of putting body of withdraw here but soon relalized doing so

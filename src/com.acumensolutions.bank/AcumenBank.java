@@ -57,7 +57,7 @@ public class AcumenBank {
 		acesSavingsAccount.applyInterest(2);
 		garysSavingsAccount.applyInterest(2);
 
-		// print out updated account info aftehr applying the interest
+		// print out updated account info after applying the interest
 		System.out.println("\nAfter Applying Interest:\n");
 		printAccountDetails(acesSavingsAccount);
 		System.out.println();
@@ -67,7 +67,7 @@ public class AcumenBank {
 		acesSavingsAccount.withdraw(1000);
 		garysSavingsAccount.withdraw(1000);
 
-		// print out updated account info aftehr applying the interest
+		// print out updated account info after applying the interest
 		System.out.println("\nAfter Withdrawing:\n");
 		printAccountDetails(acesSavingsAccount);
 		System.out.println();
